@@ -73,6 +73,9 @@ def preview_order():
     page = browser.page()
     page.click("#Preview")
 
+def create_new_order():
+    page = browser.page()
+    page.click("#order-another")
 def submit_order():
     page = browser.page()
 
